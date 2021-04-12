@@ -2,8 +2,13 @@
     "name": "dotlang-colorizer",
     "displayName": "dotlang-colorizer",
     "description": "Add a syntax hightlight support to dotlang files",
-    "version": "1",
-    "publisher": "Nobu",
+    "version": "1.0.0",
+    "publisher": "Nobuwu",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CherryBlossomTavern/dotlang-colorizer"
+    },
+    "icon": "dotlang-icon.png",
     "engines": {
         "vscode": "^1.25.0"
     },
