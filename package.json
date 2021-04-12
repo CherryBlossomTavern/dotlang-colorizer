@@ -1,0 +1,25 @@
+{
+    "name": "dotlang-colorizer",
+    "displayName": "dotlang-colorizer",
+    "description": "Add a syntax hightlight support to dotlang files",
+    "version": "1",
+    "publisher": "Nobu",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lang",
+            "aliases": ["Dotlang", "lang"],
+            "extensions": [".lang"]
+        }],
+        "grammars": [{
+            "language": "lang",
+            "scopeName": "source.lang",
+            "path": "./syntaxes/lang.tmLanguage.json"
+        }]
+    }
+}
