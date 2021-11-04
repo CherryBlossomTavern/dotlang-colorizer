@@ -2,7 +2,7 @@
     "name": "dotlang-colorizer",
     "displayName": "dotlang-colorizer",
     "description": "Add a syntax hightlight support to dotlang files",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "Nobuwu",
     "license": "MIT",
     "repository": {
