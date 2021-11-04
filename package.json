@@ -2,13 +2,14 @@
     "name": "dotlang-colorizer",
     "displayName": "dotlang-colorizer",
     "description": "Add a syntax hightlight support to dotlang files",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "Nobuwu",
+    "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/CherryBlossomTavern/dotlang-colorizer"
+        "url": "https://github.com/NobUwU/dotlang-colorizer"
     },
-    "icon": "dotlang-icon.png",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.25.0"
     },
@@ -16,15 +17,24 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "lang",
-            "aliases": ["Dotlang", "lang"],
-            "extensions": [".lang"]
-        }],
-        "grammars": [{
-            "language": "lang",
-            "scopeName": "source.lang",
-            "path": "./syntaxes/lang.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "lang",
+                "aliases": [
+                    "Dotlang",
+                    "lang"
+                ],
+                "extensions": [
+                    ".lang"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lang",
+                "scopeName": "source.lang",
+                "path": "./syntaxes/lang.tmLanguage.json"
+            }
+        ]
     }
 }
