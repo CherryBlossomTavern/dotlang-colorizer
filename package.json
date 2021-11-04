@@ -1,13 +1,13 @@
 {
-    "name": "dotlang-colorizer",
-    "displayName": "dotlang-colorizer",
+    "name": "dotlang",
+    "displayName": "dotlang",
     "description": "Add a syntax hightlight support to dotlang files",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "publisher": "Nobuwu",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/NobUwU/dotlang-colorizer"
+        "url": "https://github.com/NobUwU/dotlang"
     },
     "icon": "icon.png",
     "engines": {
@@ -21,7 +21,7 @@
             {
                 "id": "lang",
                 "aliases": [
-                    "Dotlang",
+                    "dotlang",
                     "lang"
                 ],
                 "extensions": [
